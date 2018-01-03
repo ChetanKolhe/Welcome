@@ -1,9 +1,10 @@
 pipeline {
-    agent { label 'master' }
+    agent any
     stages {
        stage('test') {
           steps {
-             sh 'fail me please'
+             echo 'Build Successful'
+              python 
           }
        }
     }
