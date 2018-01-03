@@ -4,7 +4,7 @@ pipeline {
        stage('test') {
           steps {
              echo 'Build Successful'
-              python HelloWord.py
+              cd Welcome & python HelloWord.py
           }
        }
     }
